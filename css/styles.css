@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+  
+    height: 5em;
+}
+#logo{
+    font-size: 2em;
+}
+a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    margin-top: 3em;
+
+}
+li{
+    list-style: none;
+}
+header nav ul{
+    display: flex;
+    gap: 2em;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 98%;
+    margin: 0 auto;
+    /* background-color: blue; */
+}
+#sign-in{
+color: white;
+background-color: blue;
+height: 2em;
+width: 5em;
+margin-top: 1em;
+border-radius: 2px;
+}
+#sign-up{
+    color: blue;
+    height: 2em;
+width: 5em;
+margin-top: 1em;
+border-radius: 2px;
+}
+.hero-section{
+    background-image: url("../images/hero.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position:center center;
+    background-repeat: no-repeat;
+}h1{
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    /* justify-content: center; */
+    /* margin-top: 3em; */
+}
+#products{
+    text-align: center;
+    color: blue;
+    font-size: 2.5em;
+}
+.products{
+    width: 85%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+}
+.products p{
+    font-weight: bold;
+    text-align: center;
+}
+.each-product{
+    background-color: rgb(0, 183, 255);
+    width: 25em;
+    align-items: center;
+    box-shadow: 1px 2px 3px grey;
+}
+.product-images{
+    margin-left:6em ;
+}
+.select{
+    background-color: blue;
+    width: 10em;
+    height: 4em;
+    margin-left: 10em;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#aboutus{
+    text-align: center;
+    font-size: 2.5em;
+    color: blue;
+    margin-bottom: 1em;
+}
+.aboutus{
+    /* display: flex; */
+    margin-top: 2em;
+}
+.inner-aboutus{
+    display: flex;
+    gap: 1em;
+}
+.aboutus-image{
+flex: 1;
+background-image: url("../images/aboutus.jpg");
+height: 20em;
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.aboutus-content{
+    flex: 1;
+}
+.aboutus-content p{
+    font-size: 1.7em;
+}
+#inner-aboutus{
+    font-size: 2em;
+    margin-bottom: 1.2em;
+}
+.learn-more{
+    background-color: blue;
+    height: 3em;
+    width: 10em;
+    border-radius: 2px;
+    border: none;
+    margin-top: 4em;
+    color: white;
+}
+.customers{
+    width: 60%;
+    margin: 1em auto;
+    
+}
+#customers{
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+.reviews{
+    display: flex;
+    gap: 2em;
+}
+.customers-rating{
+    border: 1px double blue;
+}
+.customers-rating p{
+text-align: center;
+font-size: 1.5em;
+}
+.customers-rating div{
+    margin-left: 1.5emem;
+    color: blue;
+    font-size: 1.3em;
+    
+
+}
+.rating{
+    display: flex;
+    margin-left: 11em;
+}
+.enquiry{
+    /* background-image: url(../images/6.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    height: 35em;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 20%;
+    background-color: whitesmoke;
+    /* margin-top: 2em; */
+    /* margin-bottom: 2em; */
+    margin: 2em auto;
+    height: 30em;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px black;
+}
+.form div{
+    margin-left: 3em;
+}
+.form p{
+    font-size: 1.5em;
+text-align: center;
+}
+#email-input{
+    width: 18em;
+    height: 2em;
+}
+.name{
+      width: 18em;
+    height: 2em;  
+}
+#phone-number{
+        width: 18em;
+    height: 2em;
+}
+textarea{
+    width: 22em;
+    height: 8em;
+    margin-left: 3em;
+}
+.submit{
+    width: 7em;
+    height: 2em;
+    color: white;
+    background-color: blue;
+    margin-left: 5em;
+    border: none;
+}
+.communication-channels{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2em; */
+    width: 70%;
+    margin: 1em auto;
+    align-items: center;
+    text-align: center;
+}
+.channels{
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+.communication-channels div{
+    background-color: rgb(213, 213, 243);
+    width: 18em;
+    height: 11em;
+    box-shadow: 1px 2px 3px grey;
+}
+.communication-channels div p{
+    font-size: 1.2em;
+}
+
+.in-touch{
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 195, 255);
+}
+h5{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    /* margin-top: 1em; */
+}
+.stay-in-touch{
+    margin-left: 2em;
+}
+.images{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.links{
+    margin-right: 2em;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+#email{
+    width: 18em;
+    height: 3.5em;
+    border-radius: 2px;
+}
+.subscribe{
+height: 3.5em;
+border-radius: 2px;
+}
+footer p{
+    font-size: 1.2em;
+    margin-bottom:1em;
+}
