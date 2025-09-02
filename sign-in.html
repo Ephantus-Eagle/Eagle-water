@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-      <div class="top-sign">
+    <div class="top-sign">
         <div class="logo">
             <div><img src="images/download.jpeg" width="50px" alt="logo"></div>
            <div><p id="logo">Eagle Water Supply</p></div>
@@ -27,25 +27,29 @@
             <!-- <button id="sign-up"><a href="/Sign-up.html">sign up</a></button> -->
         <!-- </div> -->
         </div>
-    <section class="sign-up-form">
-    <h3 id="get-started">Get Started With Your Accout</h3>
-    <p>Already have an account? <a href="/sign-in.html">Log in</a></p>
-    <div class="your-email">
-        <label for="email" id="email-label">Email</label>
-        <input type="email" id="your-email" placeholder="email">
+    
+    <div class="main-sign-in-form">
+    <h3 id="sign-in-heading">Sign In</h3>
+    <p>Sign in using social network</p>
+    <div>
+        <button id="using-twitter">Login with twitter</button>
+        <button id="using-facebook">Login with facebook</button>
     </div>
-    <div class="username">
-        <label for="username" id="username-label">Username</label>
-        <input type="text" name="username" placeholder="username" id="username">
+    <p>Sign in using registered account </p>
+    <div class="registered-account">
+<input type="text" name="user" placeholder="Username" id="user">
+<input type="text" name="password" placeholder="Password" id="pass">
     </div>
-    <div class="password">
-        <label for="password" id="password-label">Password</label>
-        <input type="text" name="password" id="password">
+    <div class="signed">
+    <div>
+        <input type="checkbox" name="checkbox" id="keep-me">
+        <label for="keep-me" class="keep-me">Keep me signed in </label>
     </div>
-    <div class="create">
-    <button id="create">Get Started</button>
-    <p id="click-info">By clicking Get Started You are creating an account and you agree to Eagle's terms and conditions</p>
+    <div>
+        <button class="signed-btn">Sign in</button>
     </div>
-    </section>
+    </div>
+    <p>Dont have an account? <a href="/Sign-up.html">Sign up</a></p>
+    </div>
 </body>
 </html>
