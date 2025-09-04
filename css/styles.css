@@ -96,7 +96,7 @@ h1 {
 .selected-water {
   min-height: 2em;
   background-color: rgb(0, 183, 255);
-
+right: 15em;
   position: absolute;
 }
 .show-selected {
@@ -363,6 +363,16 @@ p {
   height: 34em;
   margin-top: 5em;
   box-shadow: 1px 2px 3px black;
+}
+#order{
+  height: 3em;
+  position: absolute;
+  width: 10em;
+  background-color: red;
+  color: white;
+  left: 5em;
+  margin-top: 7em;
+  display: none;
 }
 #get-started {
   font-size: 1.7em;
@@ -727,6 +737,8 @@ p {
     gap: 0.5em;
     flex-direction: column;
   }
+  textarea{
+    width: 20em;
+  }
 }
-@media (max-width: 375px) {
-}
+
